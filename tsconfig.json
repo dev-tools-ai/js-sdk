@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "types": ["node"],
+    "target": "es5",
+    "module": "commonjs",
+    "lib": ["es2020"],
+    "outDir": "dist",
+    "declaration": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "moduleResolution": "node"
+  },
+  "include": ["src/**/*.ts"]
+}

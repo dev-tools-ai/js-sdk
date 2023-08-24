@@ -1,0 +1,41 @@
+{
+  "name": "@devtools-ai/js-sdk",
+  "np": {
+    "branch": "main"
+  },
+  "version": "0.1.5",
+  "description": "JS SDK for devtools.ai",
+  "scripts": {
+    "build": "rm -rf ./dist && tsc && pnpm pack",
+    "debug_build": "pnpm run build && pnpm pack",
+    "test": ""
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "DevTools AI",
+  "license": "Apache-2.0",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "4.1.1",
+    "@types/node": "^17.0.36",
+    "@typescript-eslint/eslint-plugin": "^5.30.5",
+    "@typescript-eslint/parser": "^5.30.5",
+    "eslint": "^8.16.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-prettier": "4.0.0",
+    "np": "^7.6.2",
+    "prettier": "2.6.2",
+    "ts-node": "10.8.0",
+    "typescript": "4.7.2"
+  },
+  "dependencies": {
+    "axios": "0.27.2",
+    "pnpm": "^7.27.0"
+  }
+}
